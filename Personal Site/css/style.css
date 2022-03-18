@@ -1,0 +1,194 @@
+/* general styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+    padding: 0;
+    margin: 0;
+}
+.rules {
+    background: rgb(77, 77, 77);
+    /* background: #d9534f; */
+    padding: 1.5px 0;
+    margin: 30px 0 30px;
+}
+
+/* font stlyes */
+.title-intro,
+.features-intro,
+.features-heading,
+.features-heading-visible,
+.project-intro,
+.rqs132 {
+    font-family: "Lora", serif;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", serif;
+}
+
+
+.title-link,
+.title-heading,
+.features-intro,
+.project-intro,
+.features-heading,
+.features-heading-visible {
+    font-weight: bold;
+}
+
+/* font stlye end */
+
+/* color styles */
+
+.features-heading,
+.features-heading-visible {
+    color: #d9534f;
+}
+
+.features-intro,
+.project-intro,
+.navbar-brand,
+td {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+/* color styles end */
+
+/* section title  */
+
+#title {
+    margin-bottom: 200px;
+}
+
+.title,
+.mobile-view {
+    padding: 3% 7%;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+.title-link {
+    display: none;
+}
+
+.title-intro {
+    margin: 40px auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.title-img {
+    width: 30%;
+}
+
+.display-5 {
+    line-height: 1.5;
+}
+
+/* section title end */
+
+/* section features */
+
+#features {
+    
+}
+
+.features-intro,
+.project-intro {
+    text-align: center;
+}
+
+.features-heading {
+    display: none;
+    text-align: center;
+}
+
+
+.features-img {
+    width: 75%;
+}
+.features {
+    text-align: center;
+}
+.rqs132 {
+    color: black;
+    width: 70%;
+}
+.stu89d {
+    font-size: 10px;
+}
+/* section features end */
+/* project section  */
+
+#project {
+    
+}
+
+
+/* project section end */
+
+
+/* media quaries */
+
+@media (max-width: 576px) {
+    /* title section  */
+
+    .navbar-brand {
+        margin-left: 18%;
+    }
+    .navbar-toggler {
+        position: relative;
+        right: 85%;
+    }
+
+    .title-link {
+        display: inline;
+    }
+    .title-img {
+        width: 50%;
+    }
+    /* title section end */
+
+    /* features section  */
+
+    .mobile-view {
+        padding: 7% 3%;
+    }
+
+    .features-heading {
+        display: block;
+    }
+
+    .features-heading-visible {
+        display: none;
+    }
+
+    .initial-flex {
+        display: inline-block;
+    }
+
+    /* features section end */
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    /* features section  */
+
+    .rqs132 {
+        width: 70%;
+    }
+
+    /* features section end */
+}
+@media (min-width: 991px) {
+    .initial-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
